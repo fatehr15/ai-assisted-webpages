@@ -1,6 +1,6 @@
 # 🧠 Building Web Pages with AI: A Personal Journey into Code Without Coding
 
-In a world where artificial intelligence is rapidly transforming how we approach technology, I decided to test just how far I could go with zero experience in web development. No HTML. No CSS. Not even a line of JavaScript. Armed only with curiosity and AI tools like ChatGPT, DeepSeak, and Bolt, I set out to build two real-world web pages—completely guided by machine intelligence.
+In a world where artificial intelligence is rapidly transforming how we approach technology, I decided to test just how far I could go with zero experience in web development. No HTML. No CSS. Not even a line of JavaScript. Armed only with curiosity and AI tools like ChatGPT, DeepSeak, and Bolt, I set out to build two real world web pages completely guided by machine intelligence.
 
 ---
 
@@ -8,7 +8,7 @@ In a world where artificial intelligence is rapidly transforming how we approach
 
 ### 🔐 SecBootCamp Web Page
 
-This wasn’t just a simple sign-up page. The goal was to present a full-fledged cybersecurity bootcamp in detail—day-by-day schedules, interactive countdown timers, tooltips, themed visuals, and a live registration form. The site also had to feel dynamic and immersive, resonating with the tech-savvy nature of the event.
+This wasn’t just a simple sign-up page. The goal was to present a full fledged cybersecurity bootcamp in detail day by day schedules, interactive countdown timers, tooltips, themed visuals, and a live registration form. The site also had to feel dynamic and immersive, resonating with the tech-savvy nature of the event.
 
 🔗 [**View SecBootCamp Web Page**](https://secboot-camp.netlify.app/)
 
@@ -95,7 +95,7 @@ But it also revealed a critical truth:
 - Performance on mobile and desktop  
 - User interaction and accessibility  
 
-This journey will help me explore the limits of AI in web development—and appreciate the value of human intuition and expertise.
+This journey will help me explore the limits of AI in web development and appreciate the value of human intuition and expertise.
 
 ---
 

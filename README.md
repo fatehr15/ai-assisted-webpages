@@ -11,7 +11,8 @@ In a world where artificial intelligence is rapidly transforming how we approach
 This wasn’t just a simple sign-up page. The goal was to present a full fledged cybersecurity bootcamp in detail day by day schedules, interactive countdown timers, tooltips, themed visuals, and a live registration form. The site also had to feel dynamic and immersive, resonating with the tech-savvy nature of the event.
 
 🔗 [**View SecBootCamp Web Page**](https://secboot-camp.netlify.app/)
-🔗 [**View ALDDS Project Presentation src**]([https://alsd-s2-project.netlify.app](https://bolt.new/~/sb1-rawsm3t1))
+
+🔗 [**View ALDDS Project Presentation src**](https://bolt.new/~/sb1-rawsm3t1)
 
 ---
 
@@ -20,7 +21,8 @@ This wasn’t just a simple sign-up page. The goal was to present a full fledged
 This second web page served as a digital presentation of my academic project on Algorithms and Dynamic Data Structures (ALDDS). It included sections for summaries, diagrams, downloadable code samples, and explanations like a mini online portfolio.
 
 🔗 [**View ALDDS Project Presentation Page**](https://alsd-s2-project.netlify.app)
-🔗 [**View ALDDS Project Presentation src**]([https://alsd-s2-project.netlify.app](https://bolt.new/~/sb1-g2x3rg2j))
+
+🔗 [**View ALDDS Project Presentation src**](https://bolt.new/~/sb1-g2x3rg2)
 
 
 ---

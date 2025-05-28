@@ -16,7 +16,7 @@ This wasn’t just a simple sign-up page. The goal was to present a full fledged
 
 ### 📘 ALDDS Project Presentation Page
 
-This second web page served as a digital presentation of my academic project on Algorithms and Dynamic Data Structures (ALDDS). It included sections for summaries, diagrams, downloadable code samples, and explanations—like a mini online portfolio.
+This second web page served as a digital presentation of my academic project on Algorithms and Dynamic Data Structures (ALDDS). It included sections for summaries, diagrams, downloadable code samples, and explanations like a mini online portfolio.
 
 🔗 [**View ALDDS Project Presentation Page**](https://alsd-s2-project.netlify.app)
 
@@ -30,14 +30,14 @@ This second web page served as a digital presentation of my academic project on 
 - **DeepSeak**: Helped scaffold full pages from prompts and offered variations when something didn’t work.
 - **Bolt**: Useful for refining repetitive patterns and quickly adjusting style elements.
 
-I interacted with these tools in plain English. I asked for specific layouts, features like countdowns, responsive designs, or registration forms. The AIs responded with ready-to-copy code, complete with comments and suggestions.
+I interacted with these tools in plain English. I asked for specific layouts, features like countdowns, responsive designs, or registration forms. The AIs responded with ready to copy code, complete with comments and suggestions.
 
 ---
 
 ### 🌐 Deployment & Backend
 
-- **Netlify**: Used for hosting both sites quickly and easily, thanks to its free-tier deployment system.
-- **Supabase**: Provided a lightweight backend for storing form submissions and enabling basic dynamic interactions. Setup was AI-guided.
+- **Netlify**: Used for hosting both sites quickly and easily, thanks to its free tier deployment system.
+- **Supabase**: Provided a lightweight backend for storing form submissions and enabling basic dynamic interactions. Setup was AI guided.
 
 ---
 
@@ -46,15 +46,15 @@ I interacted with these tools in plain English. I asked for specific layouts, fe
 ### ⏱️ Development Speed
 
 While AI made the coding fast in theory, I quickly ran into practical limitations:
-- Free-tier limits slowed down daily usage.
+- Free tier limits slowed down daily usage.
 - Limited iterations made debugging and testing slow.
 
 ---
 
 ### 💻 Code Quality
 
-- ✅ **The Good**: Modern layout, responsive design, clear structure.
-- ❌ **The Bad**: Redundant and meaningless code blocks were common. Without understanding the language, it was hard to tell which parts were critical.
+- **The Good**: Modern layout, responsive design, clear structure.
+- **The Bad**: Redundant and meaningless code blocks were common. Without understanding the language, it was hard to tell which parts were critical.
 
 ---
 
@@ -72,7 +72,7 @@ Even though the websites looked polished:
 This was the toughest part. Every bug felt like a mystery box:
 - I had to constantly regenerate code blocks using AI.
 - Trial and error dominated the debugging process.
-- I realized how important actual coding knowledge is to move beyond surface-level development.
+- I realized how important actual coding knowledge is to move beyond surface level development.
 
 ---
 

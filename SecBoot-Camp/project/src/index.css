@@ -1,0 +1,237 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Animation Keyframes */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
+}
+
+@keyframes glow {
+  0% { text-shadow: 0 0 5px #F0D637, 0 0 10px #F0D637, 0 0 15px #F0D637; }
+  50% { text-shadow: 0 0 10px #F0D637, 0 0 20px #F0D637, 0 0 30px #F0D637; }
+  100% { text-shadow: 0 0 5px #F0D637, 0 0 10px #F0D637, 0 0 15px #F0D637; }
+}
+
+@keyframes matrix {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 0% 100%; }
+}
+
+@keyframes moveVertical {
+  from { transform: translateY(-100%); }
+  to { transform: translateY(100%); }
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes gradient-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes pulse-glow {
+  0% { box-shadow: 0 0 5px rgba(240, 214, 55, 0.5); }
+  50% { box-shadow: 0 0 20px rgba(240, 214, 55, 0.8); }
+  100% { box-shadow: 0 0 5px rgba(240, 214, 55, 0.5); }
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Base Styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-blue-zodiac text-citrine-white;
+}
+
+/* Background Effects */
+.bg-matrix {
+  background-image: linear-gradient(180deg, 
+    rgba(91, 136, 178, 0.1) 0%,
+    rgba(91, 136, 178, 0.05) 50%,
+    rgba(91, 136, 178, 0.1) 100%
+  );
+  background-size: 100% 200%;
+  animation: matrix 20s linear infinite;
+}
+
+/* Navigation Links */
+.nav-link {
+  @apply relative px-4 py-2 text-citrine-white transition-all duration-300;
+}
+
+.nav-link::after {
+  content: '';
+  @apply absolute bottom-0 left-0 w-0 h-0.5 bg-golden-dream transition-all duration-300;
+}
+
+.nav-link:hover::after {
+  @apply w-full;
+}
+
+.nav-link:hover {
+  @apply text-golden-dream;
+  text-shadow: 0 0 10px rgba(240, 214, 55, 0.5);
+}
+
+/* Animation Classes */
+.glow-text {
+  animation: glow 2s ease-in-out infinite;
+}
+
+.float-animation {
+  animation: float 6s ease-in-out infinite;
+}
+
+.typing-effect {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 2s steps(40, end);
+}
+
+.animate-gradient-shift {
+  animation: gradient-shift 15s ease infinite;
+  background-size: 200% 200%;
+}
+
+.animate-fade-up {
+  animation: fade-up 0.5s ease-out forwards;
+}
+
+/* Interactive Elements */
+.interactive-hover {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+.interactive-hover:hover {
+  @apply transform scale-105;
+  animation: pulse-glow 2s infinite;
+}
+
+/* Card Styles */
+.card-hover {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+.card-hover:hover {
+  @apply transform scale-[1.02] shadow-lg;
+  box-shadow: 0 0 15px rgba(240, 214, 55, 0.3);
+}
+
+/* Button Styles */
+.btn-primary {
+  @apply px-6 py-3 bg-golden-dream text-blue-zodiac rounded-lg font-semibold 
+         transition-all duration-300 ease-in-out transform hover:scale-105
+         hover:bg-hippie-blue hover:text-citrine-white
+         focus:outline-none focus:ring-2 focus:ring-golden-dream focus:ring-opacity-50;
+}
+
+.btn-secondary {
+  @apply px-6 py-3 bg-hippie-blue/20 text-hippie-blue rounded-lg
+         transition-all duration-300 ease-in-out hover:bg-hippie-blue/30
+         focus:outline-none focus:ring-2 focus:ring-hippie-blue focus:ring-opacity-50;
+}
+
+/* Form Elements */
+.input-field {
+  @apply w-full bg-blue-zodiac/50 border border-hippie-blue/30 rounded-lg px-4 py-2
+         text-citrine-white transition-all duration-300 ease-in-out
+         focus:outline-none focus:border-golden-dream focus:ring-1 focus:ring-golden-dream;
+}
+
+/* Loading Animations */
+.loading-spinner {
+  @apply animate-spin;
+}
+
+/* Parallax Effect */
+.parallax {
+  @apply transition-transform duration-500 ease-out;
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+/* Backdrop Blur */
+.backdrop-blur {
+  @apply backdrop-filter backdrop-blur-sm;
+}
+
+/* Section Transitions */
+.section-enter {
+  @apply opacity-0 translate-y-4;
+}
+
+.section-enter-active {
+  @apply opacity-100 translate-y-0 transition-all duration-500 ease-out;
+}
+
+/* Modal/Dialog Animations */
+.modal-overlay {
+  @apply fixed inset-0 bg-blue-zodiac/80 backdrop-blur-sm transition-opacity duration-300;
+}
+
+.modal-content {
+  @apply transform transition-all duration-300 ease-out;
+}
+
+.modal-enter {
+  @apply opacity-0 scale-95;
+}
+
+.modal-enter-active {
+  @apply opacity-100 scale-100;
+}
+
+.modal-exit {
+  @apply opacity-100 scale-100;
+}
+
+.modal-exit-active {
+  @apply opacity-0 scale-95;
+}
+
+/* Scroll Progress Indicator */
+.scroll-progress {
+  @apply fixed top-0 left-0 h-1 bg-golden-dream transition-all duration-300;
+  z-index: 100;
+}
+
+/* Tooltip */
+.tooltip {
+  @apply invisible absolute;
+}
+
+.has-tooltip:hover .tooltip {
+  @apply visible z-50;
+}
+
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
